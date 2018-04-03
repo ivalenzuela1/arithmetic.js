@@ -9,13 +9,17 @@ Add
 const add = (...args) => {
     if (args.length === 1 && Array.isArray(args[0])) {
         return args[0].reduce((x, y) => x + y);
-    } else if (args.length === 2 && Array.isArray(args[0])) {
-        return args[0].map(x => x + args[1]);
-    } else if (args.length > 1) {
-        return args.reduce((x, y) => x + y);
-    } else {
-        return 'Error: Too few arguments';
     }
+    
+    if (args.length === 2 && Array.isArray(args[0])) {
+        return args[0].map((x) => x + args[1]);
+    }
+    
+    if (args.length > 1) {
+        return args.reduce((x, y) => x + y);
+    }
+    
+    return 'Error: Too few arguments';
 };
 
 module.exports = add;
