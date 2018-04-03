@@ -19,7 +19,7 @@ const add = (...args) => {
         return args.reduce((x, y) => x + y);
     }
     
-    return 'Error: Too few arguments';
+    return 'Error with arguments';
 };
 
 module.exports = add;
