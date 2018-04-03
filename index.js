@@ -31,6 +31,6 @@ console.log(multiply([5, 10, 15, 20, 25], 10));
 console.log(multiply());
 
 // Divide
-console.log(divide(6/2));
-console.log(divide(1/3));
+console.log(divide(6, 2));
+console.log(divide(1, 3));
 console.log(divide([1, 2, 3, 4, 5], 5));
