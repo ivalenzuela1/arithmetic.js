@@ -1,11 +1,9 @@
 /* 
 Add
 
-Adds two or more values or an array of values
-
-add(2, 3);         returns number 5
-add(2, 3, 4);      returns number 9
-add([2, 3, 4, 5]); returns number 14
+- Adds two or more values
+- Sum up a single array of values
+- Takes an array and a value and adds that value to every item in the array and returns a **NEW array** (does not mutate)
 */
 
 const add = (...args) => {

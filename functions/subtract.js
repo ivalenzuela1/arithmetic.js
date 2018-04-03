@@ -1,9 +1,6 @@
 /* 
 Subtract
 
-Subtract two values or takes in an array as the first argument
-and a number to subtract from every element as the second argument
-
-subtract(5.3, 2);             // returns number 3.3
-subtract([5, 7, 4], 4);       // returns Array [1, 3, 0]
+- Subtracts two values
+- Takes an array and a value and subtracts that value to every item in the array and returns a **NEW array** (does not mutate)
 */
