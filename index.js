@@ -13,6 +13,9 @@ Add has already been completed for you
 */
 
 const add = require('./functions/add');
+const subtract = require('./functions/subtract');
+const multiply = require('./functions/multiply');
+const divide = require('./functions/divide');
 
 // Add
 console.log(add(2, 3, 4));
