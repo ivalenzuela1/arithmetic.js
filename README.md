@@ -55,3 +55,49 @@ multiply([5, 10, 15, 20], 5)  // returns array [25, 50, 75, 100]
 ```
 
 ## Functions - Part 2
+
+### Abs
+
+- Returns the absolute value of a single number
+- Returns the absolute value as an array for every value in an array of numbers
+
+### Square
+
+- Returns the square of a single value
+- Returns the square of every number in an array of numbers and returns a **NEW array** (does not mutate)
+
+### Cube
+
+- Cubes a value
+- Cubes an array of of values and returns a **NEW array** (does not mutate)
+
+### Power
+
+- Takes a value and exponent and returns that number raised to that exponent
+- Takes an array of values and a single exponent and returns a **NEW array** (does not mutate) of numbers that are that value raised to the exponent
+
+### Minimum
+
+- Returns the minimum value from one or more numbers
+- Returns the minimum from an array of values
+
+### Maximum
+
+- Returns the maximum value from one or more numbers
+- Returns the minimum from an array of values
+
+### Mean
+
+- Returns the average value from one or more numbers
+- Returns the average from an array of values
+
+### Median
+
+- Computes the median from any amount of numbers
+- Computes the mediam from an array of numbers
+- **In case of an even number of values, the average of the two middle values is returned**
+
+### Mode
+
+- Computes the mode of a any amount of numbers (the one that appears the most number of times)
+- Computes the mode from an array of numbers. **If there is more than one mode, it returns an array of those values.**
